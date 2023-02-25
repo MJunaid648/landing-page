@@ -8,6 +8,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .header {
   display: flex;
@@ -60,6 +61,7 @@ a {
   font-size: medium;
   font-weight: 700;
   color: #f9faf8;
+  cursor: pointer;
 }
 .img-placeholder {
   flex: 1;
@@ -104,6 +106,56 @@ img {
   font-size: large;
   font-weight: 500;
 }
-body {
-  text-align: center;
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+  background-color: #e5e7eb;
+  padding: 60px 80px;
+}
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+.author-name {
+  font-weight: bold;
+  font-size: 36px;
+  align-self: last baseline;
+  margin-right: 50px;
+}
+.call-to-action {
+  height: 250px;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  width: 700px;
+  border-radius: 25px;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: self-start;
+}
+.c-t-a-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+.c-t-a-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.card > .signup-button {
+  border: 3px solid #f9faf8;
 }
