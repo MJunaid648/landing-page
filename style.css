@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  /* border: 1px solid red; */
 }
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -10,7 +11,7 @@ body {
 }
 .header {
   display: flex;
-  padding: 40px;
+  padding: 20px 80px;
   background-color: #1f2937;
   font-size: 18px;
 }
@@ -31,8 +32,9 @@ a {
 }
 .hero-main {
   display: flex;
+  padding: 40px 80px;
+  height: 350px;
   background-color: #1f2937;
-  padding: 40px;
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -42,17 +44,66 @@ a {
   color: #f9faf8;
 }
 .written-content {
+  padding-right: 120px;
   display: flex;
   flex: 1;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-button {
+.signup-button {
   background-color: #3882f6;
-  padding: 8px;
+  border: none;
+  padding: 10px 22px;
   border-radius: 10px;
-  width: fit-content;
+  font-size: medium;
+  font-weight: 700;
+  color: #f9faf8;
 }
 .img-placeholder {
   flex: 1;
   border: 1px solid white;
+  background-color: #6d747d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+  /* height: 250px; */
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.info-header-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.info-section-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.image {
+  max-width: 180px;
+}
+img {
+  width: 170px;
+  height: 200px;
+  border: 5px solid #3b82f6;
+  border-radius: 20px;
+}
+.image-text {
+  color: #4b5563;
+  font-size: large;
+  font-weight: 500;
+}
+body {
+  text-align: center;
 }
